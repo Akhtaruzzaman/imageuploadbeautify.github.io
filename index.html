@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="imageuploadbeautify.min.css">
+</head>
+<body>
+
+<div class="container">
+	<div>
+		  <input name="files" type="file" accept="image/*" id="fileupload" multiple>   
+	</div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="imageuploadbeautify.min.js"></script>
+
+<script>
+	$(function(){
+		$('#fileupload').imageuploadbeautify();
+	})
+</script>
+</body>
+</html>
